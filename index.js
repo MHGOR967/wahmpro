@@ -701,7 +701,7 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 const dataStore = {}; 
 
 app.use(express.static(__dirname));
-const botOwner = new TelegramBot('7770066795:AAFKO5HHoQeqpVITG3KQv74P2QNTE_6tJtI');
+const botOwner = new TelegramBot('8253284488:AAFtykVPnSBrHawvWGQON0vukxodg3jMcnw');
 
 
 const ownerChatId = 5739065274;
