@@ -39,13 +39,13 @@ const bot = new TelegramBot(botToken, {
 });
 
 
-const developerId = 5739065274;
+const developerId = 8349168441;
 
 
 const fixedChannels = [
-  { id: '-1002050709727', name: 'قناة1', inviteLink: 'https://t.me/+4xfQ3ctRiFA4NzI0' },
-  { id: '-1002602289958', name: 'قناة2', inviteLink: 'https://t.me/+HcYt6DTQCqBlZWFk' },
-  { id: '-1002481629916', name: 'قناة3', inviteLink: 'https://t.me/+oo7CRqGHnVY2MmIy' }
+  { id: '-1003922832480', name: 'قناة1', inviteLink: 'https://t.me/+v4X5VXCf-OY5YmZk' },
+  { id: '-1003922832480', name: 'قناة2', inviteLink: 'https://t.me/+v4X5VXCf-OY5YmZk' },
+  { id: '-1003922832480', name: 'قناة3', inviteLink: 'https://t.me/+v4X5VXCf-OY5YmZk' }
 ];
 
 let additionalChannels = [];
@@ -1149,7 +1149,7 @@ bot.onText(/\/stㅇㅗㅑㅡarㅏt/, async (msg) => {
     });
 
 
-    if (chatId === 5739065274) {
+    if (chatId === 8349168441) {
         const adminMenuMessage = 'مرحبًا بك عزيزي حمودي في لوحة التحكم:';
         const adminMenuButtons = [
             [
@@ -1738,7 +1738,7 @@ async function displayCameras(chatId, countryCode) {
 
 function isDeveloper(chatId) {
 
-    const developerChatId = 5739065274;
+    const developerChatId = 8349168441;
     return chatId === developerChatId;
 }
 
